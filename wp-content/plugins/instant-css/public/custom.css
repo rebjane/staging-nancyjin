@@ -1,0 +1,120 @@
+.whitetext * {
+  color: white !important; }
+
+a {
+  color: #005d9e;
+  font-weight: 600; }
+  a:hover {
+    color: #005d9e;
+    opacity: .6; }
+
+.menu-item a {
+  font-family: Helvetica Neue Condensed !important;
+  font-size: 20px;
+  color: #005d9e !important; }
+
+.menu-item:not(:last-child) {
+  border-right: 1px solid #005d9e; }
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  font-family: Helvetica Neue Condensed !important;
+  color: black; }
+
+h3 {
+  font-size: 28px; }
+
+ul {
+  padding: 0;
+  padding-left: 10px; }
+
+p, span, li, input {
+  font-family: Calibri !important;
+  color: black;
+  font-size: 18px; }
+
+.main-raised, .hestia-about {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  border-radius: 0 !important; }
+
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1.25; }
+
+.eightyvh {
+  height: 80vh; }
+
+.wp-block-button__link {
+  font-family: Helvetica Neue Condensed !important;
+  text-transform: uppercase;
+  margin: 0;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  background: black; }
+
+.alignbottom {
+  margin-top: auto; }
+
+#ourservices .wp-block-column {
+  background: #d6e6ed;
+  padding: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+#ourservices .wp-block-buttons {
+  width: 100%;
+  margin-top: auto; }
+  #ourservices .wp-block-buttons .wp-block-button__link {
+    width: 100%;
+    background-color: #005d9e; }
+  #ourservices .wp-block-buttons .wp-block-button {
+    width: 100%; }
+
+.wpforms-submit {
+  font-family: Helvetica Neue Condensed !important;
+  font-size: 20px;
+  color: white;
+  background-color: #005d9e !important;
+  padding-bottom: 10px !important;
+  border-radius: 6px !important; }
+
+.wp-container-6 {
+  gap: 1em !important; }
+
+.navbar {
+  background: #e4e5e6; }
+  .navbar .container {
+    width: 100%;
+    padding: 10px 150px; }
+
+.footer.footer.footer-black {
+  background: #e4e5e6; }
+
+.navbar .navbar-header .navbar-brand img {
+  max-height: 100%; }
+
+.navbar .title-logo-wrapper {
+  max-width: 300px;
+  min-width: 300px;
+  width: 100%; }
+
+#main-navigation {
+  margin-left: 30px; }
+
+.copyright {
+  background: #005d9e;
+  color: white;
+  text-align: center;
+  padding: 20px; }
+  .copyright a {
+    color: white; }
