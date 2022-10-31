@@ -12,7 +12,7 @@
 	<atom:link href="http://localhost/nancyjin/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description></description>
-	<lastBuildDate>Tue, 25 Oct 2022 14:28:57 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 31 Oct 2022 21:30:53 +0000</lastBuildDate>
 	<language>en-CA</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,7 +20,27 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.0.3</generator>
 	<item>
-		<title>Hello world!</title>
+		<title>Incorporation Consulting and Accounts Setups</title>
+		<link>./../../../2022/10/31/incorporation-consulting-and-accounts-setups/index.html</link>
+					<comments>./../../../2022/10/31/incorporation-consulting-and-accounts-setups/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[nancyjincga.com]]></dc:creator>
+		<pubDate>Mon, 31 Oct 2022 21:30:43 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=160</guid>
+
+					<description><![CDATA[Base on your business activities and potential customers, our team will guide you through business incorporation details such as whether you should …]]></description>
+										<content:encoded><![CDATA[
+<p>Base on your business activities and potential customers, our team will guide you through business incorporation details such as whether you should …</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2022/10/31/incorporation-consulting-and-accounts-setups/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Incorporation Consulting and Accounts Setups</title>
 		<link>./../../../2022/10/25/hello-world/index.html</link>
 					<comments>./../../../2022/10/25/hello-world/index.html#comments</comments>
 		
@@ -29,9 +49,9 @@
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">./../../../index.html?p=1</guid>
 
-					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
+					<description><![CDATA[Base on your business activities and potential customers, our team will guide you through business incorporation details such as whether you should …]]></description>
 										<content:encoded><![CDATA[
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<p>Base on your business activities and potential customers, our team will guide you through business incorporation details such as whether you should …</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>./../../../2022/10/25/hello-world/feed/index.html</wfw:commentRss>
