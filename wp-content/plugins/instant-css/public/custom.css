@@ -14,7 +14,7 @@ a {
   color: #005d9e !important; }
 
 @media screen and (min-width: 769px) {
-  .menu-item:not(:last-child) {
+  .navbar .menu-item:not(:last-child) {
     border-right: 1px solid #005d9e; } }
 
 .sub-menu .menu-item {
@@ -67,6 +67,10 @@ h1, h2, h3, h4, h5, h6, p {
 .alignbottom {
   margin-top: auto; }
 
+@media screen and (max-width: 767px) {
+  .alignbottom {
+    margin-bottom: 0%; } }
+
 #ourservices .wp-block-column, #ourfees .wp-block-column {
   background: #eef8fc;
   padding: 20px;
@@ -109,6 +113,19 @@ h1, h2, h3, h4, h5, h6, p {
 .footer.footer.footer-black {
   background: #e4e5e6; }
 
+.footer .wp-block-social-links {
+  padding-left: 0; }
+
+@media screen and (min-width: 992px) {
+  .footer .col-md-4:not(:last-child) {
+    border-right: 1px solid #00528c; } }
+
+@media screen and (max-width: 991px) {
+  .footer .col-md-4:not(:last-child) {
+    border-bottom: 1px solid #00528c; }
+  .footer .col-md-4 {
+    padding-top: 40px; } }
+
 .navbar .navbar-header .navbar-brand img {
   max-height: 100%; }
 
@@ -139,6 +156,23 @@ h1, h2, h3, h4, h5, h6, p {
 
 #menu-nav-1 li {
   line-height: 1; }
+
+@media screen and (max-width: 768px) {
+  #menu-nav .caret {
+    width: 100vw;
+    height: 100%;
+    border: none;
+    position: absolute;
+    left: 0;
+    top: 0; }
+    #menu-nav .caret .fa-chevron-down {
+      position: absolute;
+      left: 75px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+      margin: 0; } }
 
 .sub-menu {
   padding-bottom: 10px !important; }
@@ -180,8 +214,15 @@ h1, h2, h3, h4, h5, h6, p {
   width: 30px;
   height: 30px; }
 
-.navbar .yspl_win_wrap {
-  padding: 0 20px; }
+@media screen and (min-width: 769px) {
+  .navbar .yspl_win_wrap {
+    padding: 0 20px; } }
+
+@media screen and (max-width: 768px) {
+  .navbar .yspl_win_wrap {
+    padding: 0 10px; }
+    .navbar .yspl_win_wrap .wp-block-social-link {
+      width: auto; } }
 
 #nav_menu-2 .yspl_win_wrap {
   display: none; }
