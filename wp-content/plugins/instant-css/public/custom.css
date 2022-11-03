@@ -56,6 +56,10 @@ h1, h2, h3, h4, h5, h6, p {
 .eightyvh {
   height: 80vh; }
 
+@media screen and (max-width: 767px) {
+  .eightyvh {
+    height: 70vh; } }
+
 .wp-block-button__link {
   font-family: Helvetica Neue Condensed !important;
   text-transform: uppercase;
@@ -242,3 +246,10 @@ h1, h2, h3, h4, h5, h6, p {
 .navbar .navbar-nav > li .dropdown-menu li a {
   color: black !important;
   font-family: Calibri !important; }
+
+@media only screen and (max-width: 976px) {
+  .wp-block-uagb-container {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important; } }
