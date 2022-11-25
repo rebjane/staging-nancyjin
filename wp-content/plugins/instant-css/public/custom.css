@@ -30,14 +30,17 @@ h1, h2, h3 {
 h2, h3 {
   color: #00528c !important; }
 
+h2 {
+  font-size: 32px !important; }
+
 h3 {
-  font-size: 28px; }
+  font-size: 26px !important; }
 
 ul {
   padding: 0;
   padding-left: 10px; }
 
-p, span, li, input {
+p, span, li, input, .wp-block-table {
   font-family: Calibri !important;
   color: #00528c;
   font-size: 18px; }
@@ -50,8 +53,11 @@ p, span, li, input {
   padding: 0;
   border-radius: 0 !important; }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
   line-height: 1.25; }
+
+p {
+  line-height: 1.618; }
 
 .eightyvh {
   height: 80vh; }
@@ -106,7 +112,7 @@ h1, h2, h3, h4, h5, h6, p {
   border-radius: 6px !important; }
 
 .wp-container-6 {
-  gap: 1em !important; }
+  gap: 2em !important; }
 
 .navbar {
   background: #e4e5e6; }
@@ -139,7 +145,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%; }
 
 #main-navigation {
-  margin-left: 30px; }
+  margin-left: auto; }
 
 .copyright {
   background: #005d9e;
@@ -253,3 +259,54 @@ h1, h2, h3, h4, h5, h6, p {
     padding-bottom: 40px !important;
     padding-left: 20px !important;
     padding-right: 20px !important; } }
+
+.wp-block-uagb-container {
+  row-gap: 10px !important; }
+
+.homebanner {
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.71); }
+
+.wp-block-column:first-child {
+  margin-left: auto; }
+
+.wp-block-column:last-child {
+  margin-right: auto; }
+
+article:not(#post-152) a {
+  text-decoration: underline; }
+
+img {
+  display: block;
+  margin: auto; }
+
+.blog-sidebar-wrapper {
+  display: none; }
+
+.single-post .single-post-container {
+  float: unset !important;
+  margin: auto;
+  width: 100%;
+  max-width: 800px; }
+
+.wp-block-post-featured-image a {
+  height: 300px; }
+  .wp-block-post-featured-image a img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 100%; }
+
+li {
+  font-size: 16px;
+  font-weight: 700; }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility; }
+
+ul {
+  margin-bottom: 20px; }
+
+.related-posts, .entry-categories {
+  display: none; }
